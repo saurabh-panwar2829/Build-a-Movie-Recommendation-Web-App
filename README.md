@@ -62,7 +62,7 @@ AZURE_OPENAI_API_VERSION=2023-05-15
 
 Run the backend:
 ```bash
-python main.py
+uvicorn main:app --reload
 ```
 The API will be available at `http://localhost:8000`.
 
